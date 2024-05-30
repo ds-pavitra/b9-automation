@@ -1273,3 +1273,111 @@ body {
         z-index: 1;
     }
 }
+
+
+@media only screen and (min-width: 1442px) and (max-width: 1600px) {
+    .topic {
+        margin-bottom: 20px;
+        padding-top: 200px;
+    }
+
+    .container_heading {
+        margin-bottom: 20px;
+        font-size: 36px;
+        line-height: 38px;
+    }
+
+    .projects_bg .topic{
+        padding-top: 100px;
+    }
+
+    .projects_bg{
+        background-color: #fff;
+        height: 870px;
+    }
+
+
+    .WCUs_Container .topic {
+        color: #C0C0C0;
+        margin-bottom: 24px;
+        padding-top: 0px;
+    }
+
+
+    .news_bg{
+        background-color: #fff;
+    }
+
+
+    .card {
+        position: sticky;
+        bottom: 0;
+        z-index: 9;
+    }
+
+    .card1 {
+        position: sticky;
+        bottom: 0;
+        height: 550px;
+        background-color: #463664;
+        border-radius: 40px;
+        z-index: 8;
+    }
+
+    .card2 {
+        position: sticky;
+        bottom: 0;
+        /* height: 100vh; */
+        height: 880px;
+        background-color: #fff;
+        z-index: 7;
+    }
+
+    .card3 {
+        position: sticky;
+        bottom: 0;
+        height: 550px;
+        background-color: #463664;
+        border-radius: 40px;
+        z-index: 6;
+    }
+
+    .card4 {
+        position: sticky;
+        bottom: 0;
+        height: 740px;
+        background-color: #fff;
+        z-index: 5;
+    }
+
+    .card5 {
+        position: sticky;
+        bottom: 0;
+        height: 550px;
+        padding-top: 155px;
+        background-color: #F4786E;
+        border-radius: 40px;
+        z-index: 4;
+    }
+
+    .card6 {
+        position: sticky;
+        bottom: 0;
+        height: 890px;
+        background-color: #fff;
+        z-index: 3;
+    }
+
+    .card7 {
+        position: sticky;
+        bottom: 10px;
+        height: 400px;
+        z-index: 2;
+    }
+
+    .card8 {
+        position: sticky;
+        bottom: 0;
+        z-index: 1;
+    }
+}
