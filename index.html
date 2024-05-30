@@ -14,7 +14,8 @@
     <link rel="stylesheet" href="css/plugins/bootstrap-grid.css" />
     <!-- font awesome css -->
     <link rel="stylesheet" href="css/plugins/font-awesome.min.css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/plugins/bootstrap.min.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" /> -->
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- swiper css -->
@@ -32,7 +33,7 @@
             <nav class="navbar navbar-expand-lg bg-body-white">
                 <div class="container">
                     <a class="navbar-brand" href="./index.html">
-                        <img class="header_logo onload_animate" src="./img/B9Logo.svg" />
+                        <img class="header_logo onload_animate" src="./img/B9logoFinalHeader.svg" />
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -108,9 +109,11 @@
                         <!-- <form class="d-flex" role="contactus">
                         <input class="form-control me-2" type="contactus" placeholder="contactus" aria-label="contactus">
                       </form> -->
-                        <a class="nav-link onload_animate" style="margin-right:20px;" aria-current="page"
+                        <a class="nav-link onload_animate callus_no" aria-current="page"
                             href="./whoweare.html" style="font-size: 16px"> <img src="./img/callbtn.svg"
-                                style="width: 28px; height:28px;" alt="call us btn"> +91 00000 00000</a>
+                                style="width: 24px; height:24px;" alt="call us btn"> +91 00000 00000
+                        </a>
+
                         <a href="./contact.html" class="btn header_contactus_btn onload_animate">
                             Contact Us</a>
                     </div>
@@ -124,7 +127,7 @@
             <nav class="navbar navbar-expand-lg bg-body-white">
                 <div class="container">
                     <a class="navbar-brand" href="./index.html">
-                        <img class="header_logo" src="./img/B9Logo.svg" />
+                        <img class="header_logo" src="./img/B9logoFinalHeader.svg" />
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -504,38 +507,202 @@
                             Some Reviews From Clients About US
                         </h3>
                         <div class="card_container">
-                            <div class="row justify-content-evenly">
-                                <div class="col-xl-6 col_cards">
-                                    <h5 class="title">Holistic Approach</h5>
-                                    <p class="descrip">
-                                        Our commitment to understanding the bigger picture allows us to
-                                        create integrated, all-encompassing solutions that are both efficient and
-                                        effective.
-                                    </p>
+                            <div class="swiper-container testimonial-slider">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="testimonial-card d-flex justify-content-center">
+                                            <div class="clientreview_bg" style="margin-left: 20px">
+                                                <div>
+                                                    <p class="client_reviews">
+                                                        <img src="./img/quote-start.svg" style="margin-right: 10px;" />
+                                                        Broadway9 Automation blend this great vision they have
+                                                        for creating an extraordinary company by instilling a
+                                                        deep sense of practicality and methodology to deliver
+                                                        applications and mobile apps on time and on budget.
+                                                        <img src="./img/quote-end.svg" style="margin-left: 10px;" />
+                                                    </p>
+                                                </div>
+                                                <div class="client_names">
+                                                    <p class="author">Jugal Shah</p>
+                                                    <p class="position_client">CEO | Leo9 Studio</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <div class="testimonial-card d-flex justify-content-center">
+                                            <div class="clientreview_bg" style="margin-left: 20px">
+                                                <div>
+                                                    <p class="client_reviews">
+                                                        <img src="./img/quote-start.svg" style="margin-right: 10px;" />
+                                                        Broadway9 Automation does the exact same thing with
+                                                        technologies. It knows how to gather the customer
+                                                        requirements and carve the imagination in a valuable
+                                                        product or a service. Their customised software helped
+                                                        us in our marketing campaigns to communicate the right
+                                                        message to our consumers.
+                                                        <img src="./img/quote-end.svg" style="margin-left: 10px;" />
+                                                    </p>
+                                                </div>
+                                                <div class="client_names">
+                                                    <p class="author">Milind Trivedi</p>
+                                                    <p class="position_client">
+                                                        Creative & Production Head | Grace Communication
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <div class="testimonial-card d-flex justify-content-center">
+                                            <div class="clientreview_bg" style="margin-left: 20px">
+                                                <div>
+                                                    <p class="client_reviews">
+                                                        <img src="./img/quote-start.svg" style="margin-right: 10px;" />
+                                                        Managing the cricket tournament wouldn't be possible if
+                                                        we had not used Procric8 designed and developed by Broadway9
+                                                        Automation. I'm very excited to say that all 200+
+                                                        Players were happy with LIVE SCORE updates on the ground
+                                                        as well as on App during matches. Their teams were
+                                                        remarkable on understanding requirements, and will
+                                                        recommend them in my contact sphere!
+                                                        <img src="./img/quote-end.svg" style="margin-left: 10px;" />
+                                                    </p>
+                                                </div>
+                                                <div class="client_names">
+                                                    <p class="author">Jiten Oza</p>
+                                                    <p class="position_client">
+                                                        Proprietor | Compact Business Machines
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <div class="testimonial-card d-flex justify-content-center">
+                                            <div class="clientreview_bg" style="margin-left: 20px">
+                                                <div>
+                                                    <p class="client_reviews">
+                                                        <img src="./img/quote-start.svg" style="margin-right: 10px;" />
+                                                        Broadway9 Automation have blown me away when it comes to
+                                                        application development and deployment, providing
+                                                        unbelievable account management, great agility and
+                                                        serious innovation.
+                                                        <img src="./img/quote-end.svg" style="margin-left: 10px;" />
+                                                    </p>
+                                                </div>
+                                                <div class="client_names">
+                                                    <p class="author">Nalin Shah</p>
+                                                    <p class="position_client">Director | India Latina PCI</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <div class="testimonial-card d-flex justify-content-center">
+                                            <div class="clientreview_bg" style="margin-left: 20px">
+                                                <div>
+                                                    <p class="client_reviews">
+                                                        <img src="./img/quote-start.svg" style="margin-right: 10px;" />
+                                                        Broadway9 Automation executes the design of a product
+                                                        exactly the way it is provided, or suggest ways to
+                                                        improve navigation, usability and scalability ; to make
+                                                        our lives easier. It is a pleasure to work with and I
+                                                        highly recommend the company to those who want a job
+                                                        done the way they envision it.
+                                                        <img src="./img/quote-end.svg" style="margin-left: 10px;" />
+                                                    </p>
+                                                </div>
+                                                <div class="client_names">
+                                                    <p class="author">Jay Majithia</p>
+                                                    <p class="position_client">
+                                                        Proprietor | Niramay Briodant
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <div class="testimonial-card d-flex justify-content-center">
+                                            <div class="clientreview_bg" style="margin-left: 20px">
+                                                <div>
+                                                    <p class="client_reviews">
+                                                        <img src="./img/quote-start.svg" style="margin-right: 10px;" />
+                                                        One word “Kaizen”. A popular concept of the Japanese
+                                                        “Kaizen” which means continuous self improvement. Can be
+                                                        seen here in Broadway9 Automation ideas, solutions,
+                                                        methodologies, and practices followed by them. I extend
+                                                        my gratitude to Broadway9 Automation team for their
+                                                        support.
+                                                        <img src="./img/quote-end.svg" style="margin-left: 10px;" />
+                                                    </p>
+                                                </div>
+                                                <div class="client_names">
+                                                    <p class="author">Krishna Majithia</p>
+                                                    <p class="position_client">
+                                                        Managing Director | City Group
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <div class="testimonial-card d-flex justify-content-center">
+                                            <div class="clientreview_bg" style="margin-left: 20px">
+                                                <div>
+                                                    <p class="client_reviews">
+                                                        <img src="./img/quote-start.svg" style="margin-right: 10px;" />
+                                                        Our project was executed elegantly with a high degree
+                                                        of professionalism and technical expertise. We would be
+                                                        happy to work with Broadway9 Automation again and we hope
+                                                        the opportunity presents itself.
+                                                        <img src="./img/quote-end.svg" style="margin-left: 10px;" />
+                                                    </p>
+                                                </div>
+                                                <div class="client_names">
+                                                    <p class="author">Arun Kochhar</p>
+                                                    <p class="position_client">
+                                                        Director | A K Kocchar & Associates
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <div class="testimonial-card d-flex justify-content-center">
+                                            <div class="clientreview_bg" style="margin-left: 20px">
+                                                <div>
+                                                    <p class="client_reviews">
+                                                        <img src="./img/quote-start.svg" style="margin-right: 10px;" />
+                                                        Broadway9 Automation was able to support us end to end
+                                                        from articulating functional specifications and
+                                                        technical design through application delivery. We value
+                                                        the strong and positive relationship we have built with
+                                                        the Broadway9 Automation team.
+                                                        <img src="./img/quote-end.svg" style="margin-left: 10px;" />
+                                                    </p>
+                                                </div>
+                                                <div class="client_names">
+                                                    <p class="author">Navin</p>
+                                                    <p class="position_client">Director | B Lab</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="col-xl-6 col_cards">
-                                    <h5 class="title">Strategic Procurement</h5>
-                                    <p class="descrip">
-                                        Our expertise in this area is a game-changer for businesses seeking
-                                        cost-effective and high-quality solutions. We navigate the best source of
-                                        technologies
-                                    </p>
+                                <!-- Add Navigation Arrows -->
+                                <div class="swiper-button-prev-testimonial swiper-button-prev">
+                                    <img id="arroww" style="margin-left: 35px" src="img/slider-left.svg" alt />
                                 </div>
-                            </div>
-                            <div class="row justify-content-evenly">
-                                <div class="col-xl-6 col_cards">
-                                    <h5 class="title">Design & Development</h5>
-                                    <p class="descrip">
-                                        We're not just users of technology; we're creators. we create custom microchips
-                                        that power the next generation of electronic devices.
-                                    </p>
-                                </div>
-                                <div class="col-xl-6 col_cards">
-                                    <h5 class="title">Precision Manufacturing</h5>
-                                    <p class="descrip">
-                                        our precision manufacturing guarantees durability, We don't just make products;
-                                        we craft works of art with functionality at their core.
-                                    </p>
+                                <div class="swiper-button-next-testimonial swiper-button-next">
+                                    <img id="arroww" style="margin-right: 35px" src="img/slider-right.svg" alt />
                                 </div>
                             </div>
                         </div>
@@ -605,17 +772,31 @@
             </div>
             <!-- our clients section ends  -->
             <!-- footer section -->
-    
+
             <footer class="card8">
-                <div class="cust-footer-card" style="
-                  width: 100%;
-                  height: 390px;
-                  background-color: #5791A7;
-                  display: flex;
-                  align-items: flex-end;
-                ">
-                    <div class="container-fluid" style="background: var(--blue-color)">
-    
+                <div class="cust-footer-card">
+                    <div class="container-fluid">
+                        <p>
+                            Got a PROJECT <br>
+                            IN MIND? <a href="#">Let's Talk
+                                <svg class="rArrow" width="44" height="44" viewBox="0 0 44 44" fill="none">
+                                    <g clip-path="url(#clip0_801_203)">
+                                        <path d="M9.16663 22H34.8333" stroke="white" stroke-width="2.75"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M23.8334 33L34.8334 22" stroke="white" stroke-width="2.75"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M23.8334 11L34.8334 22" stroke="white" stroke-width="2.75"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_801_203">
+                                            <rect width="44" height="44" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+
+                            </a>
+                        </p>
                     </div>
                 </div>
                 <div class="footer_navigation" style="
@@ -672,14 +853,14 @@
                                             data-aos-duration="2500">
                                             <div class="widget-item widget-item-2">
                                                 <h4 class="widget-title">CONTACT US</h4>
-    
+
                                                 <ul class="widget-post" style="padding-left: 0">
                                                     <li>
                                                         <a href="#" class="d-flex fade_up">
                                                             <div>
                                                                 <img src="./img/phone-dark.svg" alt="Image-HasTech" />
                                                             </div>
-                                                            <div style="margin-left: 20px">
+                                                            <div class="clientreview_bg" style="margin-left: 20px">
                                                                 +91 7304802428
                                                             </div>
                                                         </a>
@@ -689,7 +870,7 @@
                                                             <div>
                                                                 <img src="./img/mail-dark.svg" alt="Image-HasTech" />
                                                             </div>
-                                                            <div style="margin-left: 20px">
+                                                            <div class="clientreview_bg" style="margin-left: 20px">
                                                                 info@broadway9.com
                                                             </div>
                                                         </a>
@@ -703,7 +884,7 @@
                             </div>
                         </div>
                     </div>
-    
+
                     <div class="footer-bottom">
                         <div class="container d-flex justify-content-between cust-margin-0"
                             style="margin: 0px auto; padding-top: 30px; color: black">
@@ -725,39 +906,6 @@
             </footer>
 
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     </div>
 
 
@@ -774,7 +922,8 @@
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scrollbar/8.5.2/smooth-scrollbar.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.0/ScrollTrigger.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/plugins/bootstrap.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> -->
 
 
     <script>
@@ -863,6 +1012,20 @@
                 const stop = setInterval(counterUp, 10); // Set interval for updating counter
             });
         })();
+
+        var testimonialSlider = new Swiper(".testimonial-slider", {
+            slidesPerView: 2,
+            loop: true,
+            spaceBetween: 30,
+            autoplay: {
+                delay: 5000,
+                disableOnInteraction: false,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next-testimonial",
+                prevEl: ".swiper-button-prev-testimonial",
+            },
+        });
     </script>
 </body>
 

@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Broadway9 Automation | HRMS Solution Blogs</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" href="img/favicon.svg" />
+
+    <!-- bootstrap grid css -->
+    <link rel="stylesheet" href="css/plugins/bootstrap-grid.css" />
+    <!-- font awesome css -->
+    <link rel="stylesheet" href="css/plugins/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/plugins/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- swiper css -->
+    <link rel="stylesheet" href="css/plugins/swiper.min.css" />
+    <!-- itsulu css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- fontawesome icons  -->
+    <script src="https://kit.fontawesome.com/f01ac4bad9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <!-- navigation starts -->
+        <div id="navigation" class="navigation_desk" style="background-color: #FEFEF3;">
+            <nav class="navbar navbar-expand-lg bg-body-white">
+                <div class="container">
+                    <a class="navbar-brand" href="./index.html">
+                        <img class="header_logo onload_animate" src="./img/B9logoFinalHeader.svg" />
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2">
+                            <li class="nav-item">
+                                <a class="nav-link onload_animate" aria-current="page" href="./whoweare.html"
+                                    style="font-size: 16px">Who we are</a>
+                            </li>
+                            <li class="nav-item dropdown" id="what-we-do-dropdown">
+                                <a class="nav-link dropdown-toggle onload_animate" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 16px">
+                                    What We Do
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-end cust-dropdown-menu">
+                                    <li class="dropdown-submenu active dropend">
+                                        <a class="dropdown-item dropdown-toggle test submenu-active focus" tabindex="-1"
+                                            href="#">Services</a>
+                                        <ul class="dropdown-menu dropdown-menu-services cust-dropdown-menu-services">
+                                            <li>
+                                                <a class="dropdown-item dropdown-item-custom" tabindex="-1"
+                                                    href="./uiux.html">UI/UX</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item dropdown-item-custom" tabindex="-1"
+                                                    href="./software-development.html">Software Development</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item dropdown-item-custom" tabindex="-1"
+                                                    href="./mobile-development.html">Mobile Development</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item dropdown-item-custom" tabindex="-1"
+                                                    href="./digital-marketing.html">Digital Marketing</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-submenu dropend">
+                                        <a class="dropdown-item dropdown-toggle test submenu-active"
+                                            href="#">Solutions</a>
+                                        <ul class="dropdown-menu dropdown-menu-solutions cust-dropdown-menu-solutions">
+                                            <li>
+                                                <a class="dropdown-item dropdown-item-custom" href="./aiml.html">AI/ML
+                                                    Solution</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item dropdown-item-custom"
+                                                    href="./smartcity-solutions.html">Smart City
+                                                    Solution</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item dropdown-item-custom"
+                                                    href="./fintech-solutions.html">Fintech
+                                                    Solution</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item dropdown-toggle test submenu-active"
+                                            href="./ourwork.html">Our Work</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link onload_animate" href="./whoweserve.html" style="font-size: 16px">Who
+                                    we serve</a>
+                            </li>
+                        </ul>
+
+                        <a class="nav-link onload_animate callus_no" aria-current="page" href="./whoweare.html"
+                            style="font-size: 16px"> <img src="./img/callbtn.svg" style="width: 24px; height:24px;"
+                                alt="call us btn"> +91 00000 00000
+                        </a>
+
+                        <a href="./contact.html" class="btn header_contactus_btn onload_animate">
+                            Contact Us</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!-- navigation_mobile_tab   -->
+
+        <div id="navigation" class="navigation_mob">
+            <nav class="navbar navbar-expand-lg bg-body-white">
+                <div class="container">
+                    <a class="navbar-brand" href="./index.html">
+                        <img class="header_logo" src="./img/B9logoFinalHeader.svg" />
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2" style="margin-right: 60px !important">
+                            <li class="nav-item">
+                                <div class="d-flex justify-content-between" style="width: 430px">
+                                    <p style="
+                          font-size: 28px;
+                          line-height: 32px;
+                          color: var(--blue-color);
+                          font-weight: 500;
+                        ">
+                                        Menu
+                                    </p>
+                                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                        aria-expanded="false" aria-label="Toggle navigation">
+                                        <img src="./img/close_vector.png" style="
+                            width: 24px;
+                            height: 24px;
+                            position: absolute;
+                            top: 50px;
+                            right: 50px;
+                          " />
+                                    </button>
+                                </div>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="./index.html"
+                                    style="font-size: 16px">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="./whoweare.html"
+                                    style="font-size: 16px">Who we are</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="font-size: 16px">
+                                    What We Do
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-end cust-dropdown-menu">
+                                    <li class="dropdown-submenu active dropend">
+                                        <a class="dropdown-item dropdown-toggle test submenu-active" tabindex="-1"
+                                            href="#">Services</a>
+                                        <ul class="dropdown-menu dropdown-menu-services cust-dropdown-menu-services"
+                                            style="display: none">
+                                            <li>
+                                                <a class="dropdown-item dropdown-item-custom" tabindex="-1"
+                                                    href="./uiux.html">UI/UX</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item dropdown-item-custom" tabindex="-1"
+                                                    href="./software-development.html">Software Development</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item dropdown-item-custom" tabindex="-1"
+                                                    href="./mobile-development.html">Mobile Development</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item dropdown-item-custom" tabindex="-1"
+                                                    href="./digital-marketing.html">Digital Marketing</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-submenu dropend">
+                                        <a class="dropdown-item dropdown-toggle test submenu-active"
+                                            href="#">Solutions</a>
+                                        <ul class="dropdown-menu dropdown-menu-solutions cust-dropdown-menu-solutions">
+                                            <li>
+                                                <a class="dropdown-item dropdown-item-custom" href="./aiml.html">AI/ML
+                                                    Solution</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item dropdown-item-custom"
+                                                    href="./smartcity-solutions.html">Smart City
+                                                    Solution</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item dropdown-item-custom"
+                                                    href="./fintech-solutions.html">Fintech
+                                                    Solution</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item dropdown-item-custom"
+                                                    href="./networking-solutions.html">Networking
+                                                    Solution</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item dropdown-toggle test submenu-active"
+                                            href="./ourwork.html">Our Work</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="./whoweserve.html" style="font-size: 16px">Who we serve</a>
+                            </li>
+                        </ul>
+                        <!-- <form class="d-flex" role="contactus">
+                        <input class="form-control me-2" type="contactus" placeholder="contactus" aria-label="contactus">
+                      </form> -->
+                        <a href="#" class="nav_info">info@harryandliu.com</a>
+                        <a href="./contact.html" class="btn header_contactus_btn">
+                            Contact Us</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- navigation ends -->
+
+        <div>
+            <!-- banner section starts -->
+            <section class="card" style="border-radius: 0 0 40px 40px;">
+                <div class="banner_top_container home_top_banner_container d-flex"
+                    style="background-color: #FEFEF3;height: 6000px;border-radius: 0 0 40px 40px;">
+                    <div class="container d-flex justify-content-around align-items-center">
+                        <div class="uiux_image_bnr" style="margin-top: 100px;">
+                            <img src="./img/uiux-banner.svg" alt="uiux banner" />
+                        </div>
+                    </div>
+
+                    <section style="width: 830px; margin: 70px auto 120px auto;">
+                        <div class="blog-heading-container">
+                            <p class="tags">HRMS</p>
+                            <h2>How a Comprehensive HRMS Solution Can Transform Your Business</h2>
+                            <p class="blog-date">July 2, 2024</p>
+                        </div>
+                        <div class="content-container">
+                            <h3>
+                                Introduction :
+                            </h3>
+                            <p>
+                                In today’s fast-paced business environment, managing human resources efficiently is
+                                crucial for organizational success. Human Resource Management Systems (HRMS) have become
+                                indispensable tools for businesses aiming to streamline their HR processes and enhance
+                                employee experience. At Broadway9 Automation Private Limited, we offer a
+                                state-of-the-art HRMS SaaS solution that covers every aspect of the employee lifecycle,
+                                from hiring to retiring. In this blog, we'll explore how our comprehensive HRMS solution
+                                can transform your business.
+                            </p>
+                        </div>
+                        <div class="content-container">
+                            <h3>
+                                What is an HRMS?
+                            </h3>
+                            <p>
+                                A Human Resource Management System (HRMS) is an integrated suite of software
+                                applications designed to manage and automate various HR functions, including
+                                recruitment, onboarding, payroll, performance management, and employee offboarding. By
+                                centralizing HR data and processes, an HRMS enhances operational efficiency and supports
+                                strategic decision-making.
+                            </p>
+                        </div>
+                        <div class="content-container">
+                            <h3>
+                                Key Features of Broadway9's HRMS Solution:
+                            </h3>
+                        </div>
+                        <div class="content-container">
+                            <h4>
+                                Recruitment and Onboarding:
+                            </h4> <br>
+                            <p>
+                                <b>Automated Job Posting and Applicant Tracking:</b> Simplify the recruitment process
+                                with automated job postings across multiple platforms and an applicant tracking system
+                                that
+                                manages candidates from application to hire. <br><br>
+                                <b> Seamless Onboarding: </b> Ensure new hires have a smooth onboarding experience with
+                                digital
+                                forms, document management, and task tracking.
+                            </p>
+                        </div>
+                        <div class="content-container">
+                            <h4>
+                                Employee Data Management:
+                            </h4>
+                            <p>
+                                <b>Centralized Employee Records: </b> Maintain comprehensive and up-to-date employee
+                                records in
+                                a centralized database, accessible to HR and management teams. <br><br>
+
+                                <b>Self-Service Portals: </b> Empower employees with self-service portals for updating
+                                personal
+                                information, accessing payslips, and managing benefits.
+                            </p>
+                        </div>
+                        <div class="content-container">
+                            <h4>
+                                Payroll and Benefits Administration:
+                            </h4>
+                            <p>
+                                <b> Automated Payroll Processing: </b> Streamline payroll with automated calculations,
+                                tax
+                                deductions, and compliance with local regulations. <br><br>
+
+                                <b>Benefits Management: </b> Simplify benefits administration with tools for managing
+                                health
+                                insurance, retirement plans, and other employee benefits.
+
+                            </p>
+                        </div>
+                        <div class="content-container">
+                            <h4>
+                                Performance Management:
+                            </h4>
+                            <p>
+                                <b>Goal Setting and Tracking:</b> Facilitate goal setting and performance tracking with
+                                customizable templates and real-time feedback mechanisms. <br><br>
+
+                                <b>360-Degree Reviews:</b> Conduct comprehensive performance evaluations with 360-degree
+                                review
+                                capabilities, involving feedback from peers, subordinates, and managers.
+                            </p>
+                        </div>
+                        <div class="content-container">
+                            <h4>
+                                Time and Attendance:
+                            </h4>
+                            <p>
+                                <b>Automated Time Tracking:</b> Use automated time tracking and attendance management to
+                                monitor employee hours, leaves, and absences accurately. <br><br>
+                                <b>Flexible Scheduling:</b> Provide flexible scheduling options and shift management to
+                                meet
+                                the diverse needs of your workforce.
+                            </p>
+                        </div>
+                        <div class="content-container">
+                            <h4>
+                                Learning and Development:
+                            </h4>
+                            <p>
+                                <b>Training Management:</b> Organize and track employee training programs,
+                                certifications, and
+                                professional development activities. <br><br>
+                                <b>eLearning Integration:</b> Integrate eLearning platforms to offer employees access to
+                                online
+                                courses and training resources.
+                            </p>
+                        </div>
+                        <div class="content-container">
+                            <h4>
+                                Compliance and Reporting:
+                            </h4>
+                            <p>
+                                <b>Regulatory Compliance:</b> Ensure compliance with labor laws and regulations through
+                                automated alerts and updates. <br><br>
+                                <b>Advanced Reporting:</b> Generate detailed reports and analytics to gain insights into
+                                HR
+                                metrics and support strategic planning.
+                            </p>
+                        </div>
+                        <div class="content-container">
+                            <h4>
+                                Employee Engagement and Offboarding:
+                            </h4>
+                            <p>
+                                <b>Employee Engagement Tools:</b> Foster a positive work culture with tools for employee
+                                surveys, feedback, and recognition programs. <br><br>
+                                <b>Efficient Offboarding:</b> Manage the offboarding process smoothly with exit
+                                interviews,
+                                knowledge transfer, and clearance procedures.
+                            </p>
+                        </div>
+                        <div class="content-container">
+                            <h3>
+                                Benefits of Implementing Broadway9's HRMS Solution:
+                            </h3>
+                        </div>
+                        <div class="content-container">
+                            <h4>
+                                Enhanced Efficiency:
+                            </h4>
+                            <p>
+                                Automate routine HR tasks, freeing up time for your HR team to focus on strategic
+                                initiatives.
+                                Reduce errors and ensure data accuracy with centralized and automated processes.
+                            </p>
+                        </div>
+                        <div class="content-container">
+                            <h4>
+                                Improved Employee Experience:
+                            </h4>
+                            <p>
+                                Provide employees with easy access to HR services through self-service portals.
+                                Enhance engagement and satisfaction with personalized and efficient HR support.
+                            </p>
+                        </div>
+                        <div class="content-container">
+                            <h4>
+                                Data-Driven Decision Making:
+                            </h4>
+                            <p>
+                                Leverage real-time data and analytics to make informed decisions about workforce
+                                planning, performance management, and employee development.
+                                Identify trends and insights that can drive organizational growth and improvement.
+                            </p>
+                        </div>
+                        <div class="content-container">
+                            <h4>
+                                Cost Savings:
+                            </h4>
+                            <p>
+                                Minimize administrative costs by reducing manual processes and improving HR operational
+                                efficiency.
+                                Optimize resource allocation with better visibility into HR metrics and workforce
+                                dynamics.
+                            </p>
+                        </div>
+                        <div class="content-container">
+                            <h4>
+                                Scalability and Flexibility:
+                            </h4>
+                            <p>
+                                Easily scale the HRMS solution as your organization grows, adding new functionalities
+                                and users without disruption.
+                                Customize the system to meet the unique needs of your business and industry.
+                            </p>
+                        </div>
+                        <div class="content-container">
+                            <h3>
+                                Conclusion :
+                            </h3>
+                            <p>
+                                A comprehensive HRMS solution like the one offered by Broadway9 Automation Private
+                                Limited can revolutionize the way your organization manages human resources. From
+                                recruitment to offboarding, our HRMS SaaS solution covers the entire employee lifecycle,
+                                enhancing efficiency, improving employee experience, and supporting strategic
+                                decision-making. Contact us today to learn more about how our HRMS solution can
+                                transform your business.
+                            </p>
+                        </div>
+
+                        <div class="content-container">
+                            <h3>
+                                Call to Action :
+                            </h3>
+                            <p>
+                                Ready to streamline your HR processes and enhance employee experience? Reach out to
+                                Broadway9 Automation Private Limited and discover how our comprehensive HRMS solution
+                                can benefit your organization.
+                            </p>
+                        </div>
+                    </section>
+
+                    <section class="relatable-posts" style="width: 830px;margin: 70px auto 120px auto;">
+                        <h2>Related Posts</h2>
+                        <div class="posts-container">
+                            <div class="post-content">
+                                <div>
+                                    <p class="blog-date">July 2, 2024</p>
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <h3>The Future of Mobile Application Development</h3>
+                                            <p class="post-description">
+                                                The mobile app industry is constantly evolving, with new technologies
+                                                and trends shaping the way we develop and use mobile applications. As we
+                                                move into 2024, it's essential for businesses and developers to stay
+                                                ahead of the curve to remain competitive
+                                            </p>
+                                        </div>
+                                        <img src="img/dummy-postImg.svg" alt="posts-img">
+                                    </div>
+                                    <div class="postTags">
+                                        <p class="tags">UI/UX</p>
+                                        <p class="tags">Development</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="post-content">
+                                <div>
+                                    <p class="blog-date">July 2, 2024</p>
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <h3>Revolutionizing Healthcare with Smartwatches</h3>
+                                            <p class="post-description">
+                                                In recent years, the convergence of HealthTech and the Internet of
+                                                Things (IoT) has paved the way for groundbreaking innovations in
+                                                healthcare. Among these innovations, smartwatches have become an
+                                                essential tool to change how we take care of our health.
+                                            </p>
+                                        </div>
+                                        <img src="img/dummy-postImg.svg" alt="posts-img">
+                                    </div>
+                                    <div class="postTags">
+                                        <p class="tags">UI/UX</p>
+                                        <p class="tags">Development</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                </div>
+
+            </section>
+            <!-- banner section ends  -->
+
+            <!-- footer section -->
+
+            <footer class="card8">
+                <div class="cust-footer-card">
+                    <div class="container-fluid">
+                        <p>
+                            Got a PROJECT <br>
+                            IN MIND? <a href="#">Let's Talk
+                                <svg class="rArrow" width="44" height="44" viewBox="0 0 44 44" fill="none">
+                                    <g clip-path="url(#clip0_801_203)">
+                                        <path d="M9.16663 22h44.8333" stroke="white" stroke-width="2.75"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M23.8334 33L34.8334 22" stroke="white" stroke-width="2.75"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M23.8334 11L34.8334 22" stroke="white" stroke-width="2.75"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_801_203">
+                                            <rect width="44" height="44" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div class="footer_navigation" style="
+                  width: 100%;
+                  height: 450px;
+                  background-color: #5791A7;
+                  position: relative;
+                ">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <!--== Start Footer Widget Area ==-->
+                                <div class="footer-widget-area">
+                                    <div class="row m-b-n40">
+                                        <div class="col-sm-6 col-md-6 col-lg-4 m-b-40" data-aos="fade-up"
+                                            data-aos-duration="1100">
+                                            <div class="widget-item pb-sm-20">
+                                                <h4 class="widget-title fade_up">Broadway9 Automation Pvt. Ltd.</h4>
+                                                <div class="about-widget fade_up">
+                                                    <p>
+                                                        D/1 , Shakti Dham CHSL,
+                                                        Plot No 257, Gorai 2 Road, Borivali West,
+                                                        Mumbai 400 091.
+                                                    </p>
+                                                    <div class="social-icons">
+                                                        <a href="#/" class="fade_up"><img src="./img/meta-dark.svg"
+                                                                alt="meta" /></a>
+                                                        <a href="#/" class="fade_up"><img src="./img/twitter-dark.svg"
+                                                                alt="twitter" /></a>
+                                                        <a href="#/" class="fade_up"><img src="./img/youtube-dark.svg"
+                                                                alt="youtube" /></a>
+                                                        <a href="#/" class="fade_up"><img src="./img/linkedin-dark.svg"
+                                                                alt="linkedin" /></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 col-md-6 col-lg-3 d-flex justify-content-start justify-content-lg-center m-b-40"
+                                            data-aos="fade-up" data-aos-duration="1500">
+                                        </div>
+                                        <div class="col-sm-6 col-md-6 col-lg-2 m-b-40" data-aos="fade-up"
+                                            data-aos-duration="2000">
+                                            <div class="widget-item widget-item-3">
+                                                <h4 class="widget-title">QUICK LINKS</h4>
+                                                <ul class="widget-post" style="padding-left: 0">
+                                                    <li><a class="fade_up" href="./uiux.html">Services</a></li>
+                                                    <li><a class="fade_up" href="./aiml.html">Solutions</a></li>
+                                                    <li><a class="fade_up" href="./ourwork.html">Our Work</a></li>
+                                                    <li><a class="fade_up" href="./contact.html">Contact Us</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 col-md-6 col-lg-3 m-b-40" data-aos="fade-up"
+                                            data-aos-duration="2500">
+                                            <div class="widget-item widget-item-2">
+                                                <h4 class="widget-title">CONTACT US</h4>
+
+                                                <ul class="widget-post" style="padding-left: 0">
+                                                    <li>
+                                                        <a href="#" class="d-flex fade_up">
+                                                            <div>
+                                                                <img src="./img/phone-dark.svg" alt="Image-HasTech" />
+                                                            </div>
+                                                            <div class="clientreview_bg" style="margin-left: 20px">
+                                                                +91 7304802428
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="d-flex fade_up">
+                                                            <div>
+                                                                <img src="./img/mail-dark.svg" alt="Image-HasTech" />
+                                                            </div>
+                                                            <div class="clientreview_bg" style="margin-left: 20px">
+                                                                info@broadway9.com
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--== End Footer Widget Area ==-->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="footer-bottom">
+                        <div class="container d-flex justify-content-between cust-margin-0"
+                            style="margin: 0px auto; padding-top: 30px; color: black">
+                            <div class="rights-reserved">
+                                <p style="font-size: 15px; font-weight: 700">
+                                    2024 All RIGHTS RESERVED - B9
+                                </p>
+                            </div>
+                            <div class="d-flex justify-content-around footer-policy"
+                                style="width: 380px; font-size: 15px; font-weight: 600">
+                                <a href="./privacy-policy.html" style="text-decoration: none; color: #000">
+                                    <p>PRIVACY POLICY</p>
+                                </a>
+                                <p>TERMS & CONDITION</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+    </div>
+
+
+
+
+
+    <!-- jQuery js -->
+    <script src="js/plugins/jquery.min.js"></script>
+    <!-- swiper js -->
+    <script src="js/plugins/swiper.min.js"></script>
+    <!-- <script src="js/plugins/swiper-bundle.min.js"></script> -->
+    <!-- Include GSAP library -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scrollbar/8.5.2/smooth-scrollbar.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.0/ScrollTrigger.min.js"></script>
+    <script src="js/plugins/bootstrap.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> -->
+
+
+    <script>
+        var dropdown = document.getElementById("what-we-do-dropdown");
+        var dropdownMenu = dropdown.querySelector(".dropdown-menu");
+
+        // Show dropdown menu on mouseover
+        dropdown.addEventListener("mouseover", function () {
+            dropdownMenu.classList.add("show");
+        });
+
+        // Hide dropdown menu on mouseout
+        dropdown.addEventListener("mouseout", function () {
+            dropdownMenu.classList.remove("show");
+        });
+
+        // Use jQuery to toggle the 'focus' class on submenu item click
+        $(".navigation_desk .dropdown-menu .submenu-active").on(
+            "click",
+            function () {
+                $(".navigation_desk .dropdown-menu .submenu-active").removeClass(
+                    "focus"
+                );
+                $(this).addClass("focus");
+            }
+        );
+
+        $(".navigation_desk .dropdown-submenu a.test").on(
+            "click",
+            function (e) {
+                // Hide all other dropdowns
+                $(".navigation_desk .dropdown-submenu .dropdown-menu")
+                    .not($(this).next("ul"))
+                    .hide();
+                // Toggle the clicked dropdown
+                $(this).next("ul").toggle();
+                e.stopPropagation();
+                e.preventDefault();
+            }
+        );
+
+        // Use jQuery to toggle the 'focus' class on submenu item click
+        $(".navigation_mob .dropdown-menu .submenu-active").on(
+            "click",
+            function () {
+                $(".navigation_mob .dropdown-menu .submenu-active").removeClass(
+                    "focus"
+                );
+                $(this).addClass("focus");
+            }
+        );
+
+        $(".navigation_mob .dropdown-submenu a.test").on("click", function (e) {
+            // Hide all other dropdowns
+            $(".navigation_mob .dropdown-submenu .dropdown-menu")
+                .not($(this).next("ul"))
+                .hide();
+            // Toggle the clicked dropdown
+            $(this).next("ul").toggle();
+            e.stopPropagation();
+            e.preventDefault();
+        });
+
+        (() => {
+            const counters = document.querySelectorAll('.counter');
+            counters.forEach((counter) => {
+                const counterValue = parseInt(counter.textContent); // Get the counter value
+                const duration = counter.dataset.duration; // Custom duration or default to 1000ms
+                const symbol = counter.dataset.symbol || ''; // Custom symbol or default to empty string
+                const increment = counter.dataset.increment || 1; // Custom increment or default to 1
+
+                let count = 0;
+                const steps = Math.ceil(duration / 10); // Calculate the number of steps needed
+                const stepValue = Math.ceil(counterValue / steps); // Calculate the step value
+                const incrementValue = Math.ceil(increment / steps); // Calculate the increment value
+
+                function counterUp() {
+                    count += stepValue;
+                    if (count >= counterValue) {
+                        clearInterval(stop);
+                        count = counterValue; // Ensure the final value is exact
+                    }
+                    counter.textContent = count + symbol; // Update the counter value
+                }
+
+                const stop = setInterval(counterUp, 10); // Set interval for updating counter
+            });
+        })();
+
+        var testimonialSlider = new Swiper(".testimonial-slider", {
+            slidesPerView: 2,
+            loop: true,
+            spaceBetween: 30,
+            autoplay: {
+                delay: 5000,
+                disableOnInteraction: false,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next-testimonial",
+                prevEl: ".swiper-button-prev-testimonial",
+            },
+        });
+    </script>
+</body>
+
+</html>
