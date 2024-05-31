@@ -1050,6 +1050,13 @@ body {
     margin-bottom: 40px;
 }
 
+.relatable-posts {
+    width: 100%;
+    background-color: #fff;
+    margin: 80px auto 120px auto;
+    border-radius: 0 0 40px 40px;
+}
+
 .relatable-posts h2 {
     font-family: var(--Causten);
     font-size: 53px;
@@ -1057,10 +1064,13 @@ body {
     line-height: 63px;
     color: #222222;
     margin-bottom: 36px;
+    width: 830px;
+    margin: 70px auto 36px auto;
 }
 
 .post-content {
-    margin-bottom: 60px;
+    margin: 0 auto 30px auto;
+    width: 830px;
 }
 
 .post-content .blog-date {
