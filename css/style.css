@@ -1053,7 +1053,7 @@ body {
 .relatable-posts {
     width: 100%;
     background-color: #fff;
-    margin: 80px auto 120px auto;
+    margin: 0px auto 120px auto;
     border-radius: 0 0 40px 40px;
 }
 
@@ -1071,6 +1071,11 @@ body {
 .post-content {
     margin: 0 auto 30px auto;
     width: 830px;
+    border-bottom: 0.5px solid #E3E3E3;
+}
+
+.post-content:last-of-type {
+    border-bottom: none;
 }
 
 .post-content .blog-date {
@@ -1109,6 +1114,7 @@ body {
 
 .postTags {
     display: flex;
+    margin-bottom: 20px;
 }
 
 .postTags .tags {
