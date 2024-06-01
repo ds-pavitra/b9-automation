@@ -678,6 +678,7 @@ body {
     background: transparent;
     margin: 0 0 40px 0;
     padding: 0;
+    text-decoration: none;
 }
 
 .news_bg .col_cards img {
@@ -1093,6 +1094,29 @@ body {
     height: auto;
     margin: 0 auto;
     overflow-x: hidden;
+}
+
+.blogs-slider {
+    height: auto;
+    overflow-x: hidden;
+}
+
+.swiper-pagination {
+    bottom: 110px !important; /* Adjust position as needed */
+}
+
+.swiper-button-prev-blogs{
+    position: absolute;
+    top:58%;
+}
+
+.swiper-button-next-blogs{
+    position: absolute;
+    top:58%;
+}
+
+.blogPage_container{
+    position: relative;
 }
 
 .testimonial-card {
