@@ -468,8 +468,14 @@ body {
     line-height: 24px;
 }
 
-.section_bg {
+/* .section_bg {
     margin: 130px auto 90px auto;
+} */
+.services_home {
+    height: 900px;
+    background: #fefefe;
+    border-radius: 0 0 40px 40px;
+    padding-top: 100px;
 }
 
 .topic {
@@ -577,9 +583,15 @@ body {
     color: #1B1B1B;
 }
 
+.WCUs_Container{
+    border-radius: 0 0 40px 40px;
+    height: 840px;
+    background: var(--blue-color);
+}
+
 .WCUs_Container .container {
     width: 1170px;
-    padding: 75px 0 40px 0;
+    padding: 150px 0 40px 0;
 }
 
 .WCUs_Container .topic {
@@ -756,6 +768,20 @@ body {
     font-weight: 500;
     line-height: 24px;
     color: #969696;
+}
+
+.projects_bg .topic {
+    padding-top: 100px;
+}
+
+.projects_bg {
+    background-color: #FDFFF3;
+    height: 1000px;
+    border-radius: 0 0 40px 40px;
+}
+
+.testimonials_bg {
+    height: 1040px;
 }
 
 .news_bg .col_cards {
@@ -943,10 +969,17 @@ body {
     text-overflow: ellipsis;
 }
 
+.news_bg {
+    background-color: #FDFFF3;
+    height: 1000px;
+    border-radius: 0 0 40px 40px;
+    padding-top: 110px;
+}
+
 
 .ourClients_bg {
     width: 100%;
-    height: 496px;
+    height: 530px;
     border-radius: 0px 0px 40px 40px;
     background-color: #B6CFCF;
     /* position: relative; */
@@ -1568,7 +1601,7 @@ body {
 
 .getStartedImage {
     position: absolute;
-    top: 29%;
+    top: 0%;
     right: 8%;
     width: 200px;
     height: 200px;
@@ -1598,6 +1631,7 @@ body {
 
 
 
+
 .card {
     position: sticky;
     bottom: 0;
@@ -1621,18 +1655,27 @@ body {
     position: sticky;
     bottom: 0;
     /* height: 100vh; */
-    height: 900px;
+    height: 1000px;
     background-color: var(--offwhite);
     z-index: 7;
     transition: 0.5s ease;
+    border-radius: 0 0 40px 40px;
 }
 
 .card3 {
     position: sticky;
     bottom: 0;
+    height: 100vh;
+    background-color: var(--blue-color);
+    border-radius: 0 0 40px 40px;
+    z-index: 6;
+}
+/* .card3 {
+    position: sticky;
+    bottom: 0;
     z-index: 6;
     transition: 0.5s ease;
-}
+} */
 
 .card4 {
     position: sticky;
@@ -1646,9 +1689,11 @@ body {
 .card5 {
     position: sticky;
     bottom: 0;
-    height: 600px;
+    height: 890px;
+    padding-top: 155px;
+    background-color: #F4786E;
+    border-radius: 0 0 40px 40px;
     z-index: 4;
-    transition: 0.5s ease;
 }
 
 .card6 {
@@ -1906,7 +1951,7 @@ body {
 
     .topic {
         margin-bottom: 40px;
-        padding-top: 312px;
+        padding-top: 200px;
     }
 
     .container_heading {
@@ -1916,20 +1961,29 @@ body {
     }
 
     .projects_bg .topic {
-        padding-top: 180px;
+        padding-top:328px;
     }
 
     .projects_bg {
         background-color: #FDFFF3;
-        height: 1060px;
+        height: 1170px;
         border-radius: 0 0 40px 40px;
     }
 
+    .WCUs_Container {
+        border-radius: 0 0 40px 40px;
+        height: 980px;
+        background: var(--blue-color);
+     }
 
     .WCUs_Container .topic {
         color: #FDFFF3;
         margin-bottom: 41px;
         padding-top: 12px;
+    }
+
+    .WCUs_Container .container {
+        padding: 200px 0 40px 0;
     }
 
     .services_home {
@@ -1943,24 +1997,33 @@ body {
     }
 
     .testimonials_bg {
-        height: 1040px;
+        height: 1080px;
     }
 
     .news_bg {
         background-color: #FDFFF3;
-        height: 1440px;
+        height: 1250px;
         border-radius: 0 0 40px 40px;
     }
 
     .news_bg .topic {
-        padding-top: 480px;
+        padding-top: 325px;
     }
 
     .ourClients_bg {
         width: 100%;
-        height: 890px;
+        height: 520px;
         border-radius: 0px 0px 40px 40px;
         background: var(--greyish_white);
+    }
+
+    .ourClients_bg .container {
+        padding-top: 340px !important;
+    }
+
+    .getStartedImage {
+        top: 18%;
+        right: 8%;
     }
 
     .card {
@@ -1993,14 +2056,14 @@ body {
         bottom: 0;
         height: 700px;
         background-color: #463664;
-        border-radius: 40px;
+        border-radius: 0 0 40px 40px;
         z-index: 6;
     }
 
     .card4 {
         position: sticky;
         bottom: 0;
-        height: 640px;
+        height: 840px;
         background-color: #fff;
         z-index: 5;
     }
@@ -2008,7 +2071,7 @@ body {
     .card5 {
         position: sticky;
         bottom: 0;
-        height: 984px;
+        height: 1060px;
         padding-top: 155px;
         background-color: #F4786E;
         border-radius: 0 0 40px 40px;
@@ -2026,7 +2089,7 @@ body {
     .card7 {
         position: sticky;
         bottom: 0;
-        height: 880px;
+        height: 700px;
         border-radius: 0 0 40px 40px;
         background: var(--greyish_white);
         z-index: 2;
@@ -2074,38 +2137,82 @@ body {
 
 
 @media only screen and (min-width: 1442px) and (max-width: 1600px) {
+
     .topic {
-        margin-bottom: 20px;
-        padding-top: 200px;
+        margin-bottom: 40px;
+        padding-top: 130px;
     }
 
     .container_heading {
-        margin-bottom: 20px;
+        margin-bottom: 84px;
         font-size: 36px;
         line-height: 38px;
     }
 
+
+    .services_home {
+        height: 900px;
+        background: #fefefe;
+        border-radius: 0 0 40px 40px;
+    }
+
     .projects_bg .topic {
-        padding-top: 100px;
+        padding-top: 165px;
     }
 
     .projects_bg {
-        background-color: #fff;
-        height: 870px;
+        background-color: #FDFFF3;
+        height: 1040px;
+        border-radius: 0 0 40px 40px;
     }
 
+    .WCUs_Container {
+       border-radius: 0 0 40px 40px;
+       height: 840px;
+       background: var(--blue-color);
+    }
 
+    .WCUs_Container .container {
+        padding: 100px 0 40px 0;
+    }
+    
     .WCUs_Container .topic {
-        color: #C0C0C0;
-        margin-bottom: 24px;
+        color: #FDFFF3;
+        margin-bottom: 41px;
         padding-top: 0px;
+    }
+
+    .testimonials_bg {
+        height: 940px;
     }
 
 
     .news_bg {
-        background-color: #fff;
+        background-color: #FDFFF3;
+        height: 1080px;
+        border-radius: 0 0 40px 40px;
     }
 
+    .ourClients_bg {
+        width: 100%;
+        height: 400px;
+        border-radius: 0px 0px 40px 40px;
+        background: var(--greyish_white);
+    }
+
+    .ourClients_bg .container {
+        padding-top: 330px !important;
+    }
+
+    .getStartedImage {
+        top: 13%;
+        right: 8%;
+    }
+
+    .cust-footer-card {
+        transform: translateY(-20%);
+        height: 200px;
+    }
 
     .card {
         position: sticky;
@@ -2127,50 +2234,63 @@ body {
         position: sticky;
         bottom: 0;
         /* height: 100vh; */
-        height: 880px;
-        background-color: #fff;
+        height: 900px;
+        background-color: #FDFFF3;
         z-index: 7;
+        border-radius: 0 0 40px 40px;
     }
 
+
     .card3 {
+        position: sticky;
+        bottom: 0;
+        height: 725px;
+        background-color: #463664;
+        border-radius: 0 0 40px 40px;
+        z-index: 6;
+    }
+
+    /* .card3 {
         position: sticky;
         bottom: 0;
         height: 550px;
         background-color: #463664;
         border-radius: 40px;
         z-index: 6;
-    }
+    } */
 
     .card4 {
         position: sticky;
         bottom: 0;
         height: 740px;
-        background-color: #fff;
+        background-color: #FDFFF3;
         z-index: 5;
     }
 
     .card5 {
         position: sticky;
         bottom: 0;
-        height: 550px;
+        height: 900px;
         padding-top: 155px;
         background-color: #F4786E;
-        border-radius: 40px;
+        border-radius: 0 0 40px 40px;
         z-index: 4;
     }
 
     .card6 {
         position: sticky;
         bottom: 0;
-        height: 890px;
-        background-color: #fff;
+        height: 800px;
+        background-color: #FDFFF3;
         z-index: 3;
     }
 
     .card7 {
         position: sticky;
-        bottom: 10px;
-        height: 400px;
+        bottom: 0;
+        height: 680px;
+        border-radius: 0 0 40px 40px;
+        background: var(--greyish_white);
         z-index: 2;
     }
 
