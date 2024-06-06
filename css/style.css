@@ -1089,6 +1089,8 @@ body {
     width: 370px;
     height: 320px;
     margin-bottom: 16px;
+    object-fit: cover;
+    border-radius: 40px 40px 0 0;
 }
 
 .news_bg .title {
@@ -1239,6 +1241,8 @@ body {
     width: 370px;
     height: 320px;
     margin-bottom: 16px;
+    border-radius: 40px 40px 0 0;
+    object-fit: cover;
 }
 
 .blogsPage_bg .title {
