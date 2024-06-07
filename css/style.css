@@ -924,7 +924,7 @@ body {
 }
 
 .projects_bg .topic {
-    padding-top: 100px;
+    padding-top: 65px;
 }
 
 .projects_bg {
@@ -1489,6 +1489,9 @@ body {
 .container-fluid {
     display: flex;
     justify-content: center;
+    position: relative;
+    right: 8%;
+    top: 12%;
 }
 
 .container-fluid p {
@@ -1511,6 +1514,7 @@ body {
     padding: 18px;
     position: relative;
     top: -14px;
+    left: 20%;
 }
 
 .container-fluid p a:hover {
@@ -1536,7 +1540,7 @@ body {
 
 
 .testimonials_bg {
-    height: 770px;
+    height: 730px;
 }
 
 .swiper-button-prev-testimonial {
@@ -1800,6 +1804,7 @@ body {
 .partnersImg img {
     width: 210px;
     filter: grayscale();
+    margin: 0 30px;
 }
 
 
@@ -1867,7 +1872,7 @@ body {
 .card5 {
     position: sticky;
     bottom: 0;
-    height: 890px;
+    height: 940px;
     padding-top: 155px;
     background: #F4786E;
     border-radius: 0 0 40px 40px;
@@ -2304,8 +2309,9 @@ body {
         display: flex;
         justify-content: center;
         position: relative;
-        bottom: -71px;
+        top: 75%;
         z-index: 1;
+        right: 15%;
     }
 
     .container-fluid p {
@@ -2321,6 +2327,7 @@ body {
         line-height: 20px;
         padding: 14px;
         top: -10px;
+        left: 42%;
     }
 
     .container-fluid p a .rArrow {
@@ -2343,31 +2350,45 @@ body {
         line-height: 38px;
     }
 
+    .ourClients_bg .container_heading {
+        font-family: var(--Causten);
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 38px;
+        color: #070635;
+        margin-bottom: 52px;
+    }
+
+    .partnersImg img {
+        width: 210px;
+        filter: grayscale();
+        margin: 0 30px;
+    }
 
     .services_home {
-        height: 900px;
+        height: 940px;
         background: #fefefe;
         border-radius: 0 0 40px 40px;
     }
 
     .projects_bg .topic {
-        padding-top: 165px;
+        padding-top: 200px;
     }
 
     .projects_bg {
         background: #FDFFF3;
-        height: 1040px;
+        height: 1080px;
         border-radius: 0 0 40px 40px;
     }
 
     .WCUs_Container {
         border-radius: 0 0 40px 40px;
-        height: 840px;
+        height: 880px;
         background: var(--blue-color);
     }
 
     .WCUs_Container .container {
-        padding: 100px 0 40px 0;
+        padding: 100px 0 80px 0;
     }
 
     .WCUs_Container .topic {
@@ -2377,7 +2398,7 @@ body {
     }
 
     .testimonials_bg {
-        height: 940px;
+        height: 1000px;
     }
 
     .css-typing p {
@@ -2386,8 +2407,12 @@ body {
 
     .news_bg {
         background: #FDFFF3;
-        height: 1080px;
+        height: 1190px;
         border-radius: 0 0 40px 40px;
+    }
+
+    .news_bg .topic {
+        padding-top: 210px;
     }
 
     .ourClients_bg {
@@ -2398,7 +2423,7 @@ body {
     }
 
     .ourClients_bg .container {
-        padding-top: 330px !important;
+        padding-top: 433px !important;
     }
 
     .getStartedImage {
@@ -2409,6 +2434,35 @@ body {
     .cust-footer-card {
         transform: translateY(-20%);
         height: 200px;
+    }
+
+    .cust-footer-card .container-fluid {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 33%;
+        right: 10%;
+    }
+
+    .cust-footer-card .container-fluid p a {
+        text-decoration: none;
+        font-family: var(--Causten);
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 24px;
+        color: #fff;
+        border: 3px solid #FFFFFF;
+        border-radius: 16px;
+        padding: 18px;
+        position: relative;
+        top: -14px;
+        left: 200px;
+    }
+
+    .cust-footer-card .container-fluid p a:hover {
+        color: #5791A7;
+        background: #fff;
+        transition: background 0.5s ease, color 0.5s ease;
     }
 
     .card {
@@ -2485,7 +2539,7 @@ body {
     .card7 {
         position: sticky;
         bottom: 0;
-        height: 680px;
+        height: 745px;
         border-radius: 0 0 40px 40px;
         background: var(--greyish_white);
         z-index: 2;
@@ -2495,6 +2549,6 @@ body {
         position: sticky;
         bottom: 0;
         z-index: 1;
-        background: none;
+        background: #5791A7;
     }
 }
