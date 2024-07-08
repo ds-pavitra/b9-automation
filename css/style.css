@@ -26,6 +26,7 @@
     --font_800: 800;
     --Causten: 'Causten', sans-serif;
     --VarelaRound: 'Varela Round', sans-serif;
+    --uiux_bg: #DDEAE4;
 }
 
 
@@ -246,6 +247,10 @@ body {
     background: var(--greyish_white);
 }
 
+.uiux_nav_desk {
+    background: var(--uiux_bg);
+}
+
 .navigation_desk,
 .Kscard_desk,
 .black {
@@ -292,6 +297,41 @@ body {
     /* border-radius: 16px; */
 }
 
+.uiux_banner_text {
+    width: 100%;
+    height: 100vh !important;
+    background: #DDEAE4;
+    border-radius: 0 0 40px 40px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.div1 {
+    margin-top: -160px;
+}
+
+.div1 h3 {
+    font-family: var(--Causten);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 57.6px;
+    color: #010231;
+}
+
+.div1 p {
+    font-family: var(--Causten);
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 25.2px;
+    color: #010231;
+}
+
+.div2 {
+    width: 584px;
+    height: 416px;
+}
 
 .css-typing p {
     /* border-right: .15em solid orange; */
@@ -1808,6 +1848,251 @@ body {
 }
 
 
+.service_title h2 {
+    font-family: var(--VarelaRound);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.08px;
+    color: #505050;
+}
+
+.section-heading_container h3 {
+    font-family: var(--Causten);
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 54px;
+}
+
+.section-heading_container p {
+    font-family: var(--Causten);
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 25.2px;
+}
+
+.keybenefit_img img {
+    width: 600px;
+}
+
+.accordsec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 110px 80px 0 80px;
+}
+
+.accodcon {
+    display: flex;
+    justify-content: space-between;
+    width: 1320px;
+}
+
+.custom-accord {
+    margin: 10px;
+    display: flex;
+    margin-top: 48px;
+}
+
+.accordimg {
+    padding: 20px;
+    width: 35%;
+    margin: 10px;
+}
+
+.image-container {
+    position: relative;
+    width: 456.42px;
+    height: 488.81px;
+    top: 38px;
+    right: 10px;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.overlay-text h1 {
+    position: absolute;
+    width: 387px;
+    top: 130px;
+    left: 220px;
+    transform: translate(-50%, -50%);
+    color: #122B47;
+    font-family: var(--Causten);
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 50.4px;
+    text-align: left;
+
+}
+
+.overlay-text p {
+    position: absolute;
+    top: 36px;
+    left: 95px;
+    transform: translate(-50%, -50%);
+    font-family: var(--Causten);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22.4px;
+    text-align: center;
+    color: #122B47;
+    width: 146px;
+    height: 50px;
+    padding: 14px 44px 14px 44px;
+    border-radius: 30px;
+    background: #DDEAE4;
+}
+
+
+/* Add some basic styles for better visibility */
+.accordion {
+    width: 657px;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    color: #000;
+    padding: 23px 30px 13px 30px;
+    margin-bottom: 24px;
+    background-color: #FBD5CB;
+    cursor: pointer;
+    transition: background-color 0.4s;
+    position: relative;
+    margin-left: 80px;
+}
+
+.accordion:nth-of-type(2) {
+    background-color: #E5E2F5;
+}
+
+.accordion:nth-of-type(3) {
+    background-color: #DDEAE4;
+}
+
+.accordion p {
+    width: 510px;
+    font-family: var(--Causten);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 33.6px;
+    color: #222221;
+}
+
+.accordion p img {
+    margin-right: 14px;
+}
+
+.panel {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+.panel p {
+    width: auto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.accordion:after {
+    content: '';
+    background: url('../img/PolygonIcon.svg') no-repeat center center;
+    background-size: contain;
+    width: 20px;
+    /* Adjust to the size of your icon */
+    height: 20px;
+    /* Adjust to the size of your icon */
+    float: right;
+    position: absolute;
+    top: 40px;
+    right: 30px;
+    transform: translateY(-50%);
+    transition: transform 0.3s ease;
+    /* To animate the rotation */
+}
+
+.accordion.active:after {
+    transform: translateY(-50%) rotate(180deg);
+    /* Rotate the icon */
+}
+
+.accordion.active {
+    background-color: #FBD5CB;
+    color: #fff;
+    border: none;
+    transition: background-color 0.4s;
+}
+
+.accordion.active:nth-of-type(2) {
+    background-color: #E5E2F5;
+}
+
+.accordion.active:nth-of-type(3) {
+    background-color: #DDEAE4;
+}
+
+.accordion.active .panel {
+    max-height: 195px;
+}
+
+.accordion.active .panel p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.uiux_home {
+    height: 1100px !important;
+}
+
+.our_services_container {
+    padding: 550px 0 80px 0 !important;
+    background: #DDEAE4 !important;
+    color: #000 !important;
+    height: 1563px !important;
+}
+
+.ourServices_rowContainer .row div {
+    width: 312px;
+    height: 284px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.ourServices_rowContainer .row div img {
+    margin-bottom: 30px;
+}
+
+.uiuxTestimonials_bg {
+    height: 810px !important;
+}
+
+.uiuxTestimonials_bg .container {
+    position: relative;
+    top: -76px;
+}
+
+.uiux_clients7 {
+    height: 572px !important;
+    z-index: 3 !important;
+}
+
+.uiux_clients7 .ourClients_bg {
+    width: 100%;
+    height: 660px;
+    border-radius: 0px 0px 40px 40px;
+    background: #B6CFCF;
+    top: 205px;
+}
+
+.color_variant2 {
+    background: #FCD6CA !important;
+}
 
 
 
@@ -1903,6 +2188,26 @@ body {
     transition: 0.5s ease;
     background: #5791A7;
 }
+
+.card9 {
+    position: sticky;
+    bottom: 0;
+    /* background: #463664; */
+    height: 100vh;
+    border-radius: 40px;
+    z-index: 8;
+    transition: 0.5s ease;
+}
+
+.card10 {
+    position: sticky;
+    bottom: 0;
+    height: 1537px;
+    border-radius: 0 0 40px 40px;
+    z-index: 5;
+}
+
+
 
 @media only screen and (min-width: 359px) and (max-width: 767px) {
 
@@ -2305,6 +2610,25 @@ body {
         z-index: 1;
     }
 
+    .card9 {
+        position: sticky;
+        bottom: 0;
+        /* background: #463664; */
+        height: 100vh;
+        border-radius: 40px;
+        z-index: 8;
+        transition: 0.5s ease;
+    }
+    
+    .card10 {
+        position: sticky;
+        bottom: 0;
+        height: 1200px;
+        border-radius: 0 0 40px 40px;
+        z-index: 5;
+    }
+    
+
     .container-fluid {
         display: flex;
         justify-content: center;
@@ -2333,6 +2657,45 @@ body {
     .container-fluid p a .rArrow {
         width: 32px;
         height: 32px;
+    }
+
+    .uiux_testimonials{
+        height: 800px;
+        padding-top: 290px;
+        z-index: 4;
+    }
+
+    .uiux_clients7 {
+        height: 700px !important;
+    }
+
+    .uiux_clients7 .container {
+        padding-top: 340px !important;
+    }
+
+    .div1 h3 {
+        font-family: var(--Causten);
+        font-size: 43px;
+        font-weight: 600;
+        line-height: 57.6px;
+        color: #010231;
+    }
+
+    .uiux_banner_text {
+        padding: 0 0 0 60px;
+    }
+    .uiuxTestimonials_bg .container {
+        position: relative;
+        top: 0;
+    }
+
+    .uiux_clients7 .ourClients_bg {
+        width: 100%;
+        height: 520px;
+        border-radius: 0px 0px 40px 40px;
+        background: #B6CFCF;
+        position: relative;
+        top: 205px;
     }
 }
 
@@ -2465,6 +2828,299 @@ body {
         transition: background 0.5s ease, color 0.5s ease;
     }
 
+    .partnersImg img {
+        width: 210px;
+        filter: grayscale();
+        margin: 0 30px;
+    }
+    
+    
+    .service_title h2 {
+        font-family: var(--VarelaRound);
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24.08px;
+        color: #505050;
+    }
+    
+    .section-heading_container h3 {
+        font-family: var(--Causten);
+        font-size: 45px;
+        font-weight: 600;
+        line-height: 54px;
+    }
+    
+    .section-heading_container p {
+        font-family: var(--Causten);
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 25.2px;
+    }
+    
+    .keybenefit_img img {
+        width: 600px;
+        height: 420px;
+    }
+    
+    .accordsec {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 110px 80px 0 80px;
+    }
+    
+    .accodcon {
+        display: flex;
+        justify-content: space-between;
+        width: 1320px;
+    }
+    
+    .custom-accord {
+        margin: 10px;
+        display: flex;
+        margin-top: 48px;
+    }
+    
+    .accordimg {
+        padding: 20px;
+        width: 35%;
+        margin: 10px;
+    }
+    
+    .image-container {
+        position: relative;
+        width: 456.42px;
+        height: 488.81px;
+        top: 38px;
+        right: 10px;
+    }
+    
+    .image-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    
+    .overlay-text h1 {
+        position: absolute;
+        width: 387px;
+        top: 130px;
+        left: 220px;
+        transform: translate(-50%, -50%);
+        color: #122B47;
+        font-family: var(--Causten);
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 50.4px;
+        text-align: left;
+    
+    }
+    
+    .overlay-text p {
+        position: absolute;
+        top: 36px;
+        left: 95px;
+        transform: translate(-50%, -50%);
+        font-family: var(--Causten);
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 22.4px;
+        text-align: center;
+        color: #122B47;
+        width: 146px;
+        height: 50px;
+        padding: 14px 44px 14px 44px;
+        border-radius: 30px;
+        background: #DDEAE4;
+    }
+    
+    
+    /* Add some basic styles for better visibility */
+    .accordion {
+        width: 657px;
+        border-radius: 6px;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: left;
+        color: #000;
+        padding: 23px 30px 13px 30px;
+        margin-bottom: 24px;
+        background-color: #FBD5CB;
+        cursor: pointer;
+        transition: background-color 0.4s;
+        position: relative;
+        margin-left: 80px;
+    }
+    
+    .accordion:nth-of-type(2) {
+        background-color: #E5E2F5;
+    }
+    
+    .accordion:nth-of-type(3) {
+        background-color: #DDEAE4;
+    }
+    
+    .accordion p {
+        width: 510px;
+        font-family: var(--Causten);
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 33.6px;
+        color: #222221;
+    }
+    
+    .accordion p img {
+        margin-right: 14px;
+    }
+    
+    .panel {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease-out;
+    }
+    
+    .panel p {
+        width: auto;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 27px;
+    }
+    
+    .accordion:after {
+        content: '';
+        background: url('../img/PolygonIcon.svg') no-repeat center center;
+        background-size: contain;
+        width: 20px;
+        /* Adjust to the size of your icon */
+        height: 20px;
+        /* Adjust to the size of your icon */
+        float: right;
+        position: absolute;
+        top: 40px;
+        right: 30px;
+        transform: translateY(-50%);
+        transition: transform 0.3s ease;
+        /* To animate the rotation */
+    }
+    
+    .accordion.active:after {
+        transform: translateY(-50%) rotate(180deg);
+        /* Rotate the icon */
+    }
+    
+    .accordion.active {
+        background-color: #FBD5CB;
+        color: #fff;
+        border: none;
+        transition: background-color 0.4s;
+    }
+    
+    .accordion.active:nth-of-type(2) {
+        background-color: #E5E2F5;
+    }
+    
+    .accordion.active:nth-of-type(3) {
+        background-color: #DDEAE4;
+    }
+    
+    .accordion.active .panel {
+        max-height: 195px;
+    }
+    
+    .accordion.active .panel p {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 27px;
+    }
+    
+    .uiux_home {
+        height: 1200px !important;
+    }
+    
+    .our_services_container {
+        padding: 550px 0 80px 0 !important;
+        background: #DDEAE4 !important;
+        color: #000 !important;
+        height: 1500px !important;
+    }
+    
+    .ourServices_rowContainer .row div {
+        width: 312px;
+        height: 284px;
+        text-align: center;
+        margin-bottom: 48px;
+    }
+    
+    .ourServices_rowContainer .row div img {
+        margin-bottom: 30px;
+    }
+    
+    .uiuxTestimonials_bg {
+        height: 810px !important;
+    }
+    
+    .uiux_clients7 {
+        height: 572px !important;
+    }
+    
+    
+    uiux_banner_text {
+        width: 100%;
+        height: 100vh !important;
+        background: #DDEAE4;
+        border-radius: 0 0 40px 40px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .div1 {
+        margin-top: -160px;
+    }
+    
+    .div1 h3 {
+        font-family: var(--Causten);
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 57.6px;
+        color: #010231;
+    }
+    
+    .div1 p {
+        font-family: var(--Causten);
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 25.2px;
+        color: #010231;
+    }
+    
+    .div2 {
+        width: 584px;
+        height: 416px;
+    }
+    
+
+    .uiuxTestimonials_bg .container {
+        position: relative;
+        top: 0;
+    }
+    
+    .uiux_clients7 {
+        height: 572px !important;
+        z-index: 3 !important;
+    }
+    
+    .uiux_clients7 .ourClients_bg {
+        width: 100%;
+        height: 575px;
+        border-radius: 0px 0px 40px 40px;
+        background: #B6CFCF;
+        top: 205px;
+    }
+
+
     .card {
         position: sticky;
         bottom: 0;
@@ -2551,4 +3207,24 @@ body {
         z-index: 1;
         background: #5791A7;
     }
+    
+
+    .card9 {
+        position: sticky;
+        bottom: 0;
+        height: 100vh;
+        border-radius: 40px;
+        z-index: 8;
+        transition: 0.5s ease;
+    }
+    
+    .card10 {
+        position: sticky;
+        bottom: 0;
+        height: 1400px;
+        border-radius: 0 0 40px 40px;
+        z-index: 5;
+    }
+
+    
 }
