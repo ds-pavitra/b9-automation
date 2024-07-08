@@ -2207,6 +2207,38 @@ body {
     z-index: 5;
 }
 
+.uiux_home {
+    height: 100vh !important;
+}
+
+.uiux_home .container {
+    position: relative;
+    top: 100px !important;
+}
+
+.sd_home {
+    height: 100vh !important;
+    background-color: #fbfbfb;
+}
+
+.sd_home .container {
+    top: 0 !important;
+}
+
+.keybenefit_img img {
+    width: 557px;
+    height: 360px;
+}
+
+.card11 {
+    position: sticky;
+    bottom: 0;
+    height: 100vh;
+    border-radius: 40px;
+    z-index: 7;
+    transition: 0.5s ease;
+}
+
 
 
 @media only screen and (min-width: 359px) and (max-width: 767px) {
@@ -2619,7 +2651,7 @@ body {
         z-index: 8;
         transition: 0.5s ease;
     }
-    
+
     .card10 {
         position: sticky;
         bottom: 0;
@@ -2627,7 +2659,7 @@ body {
         border-radius: 0 0 40px 40px;
         z-index: 5;
     }
-    
+
 
     .container-fluid {
         display: flex;
@@ -2659,7 +2691,7 @@ body {
         height: 32px;
     }
 
-    .uiux_testimonials{
+    .uiux_testimonials {
         height: 800px;
         padding-top: 290px;
         z-index: 4;
@@ -2684,6 +2716,7 @@ body {
     .uiux_banner_text {
         padding: 0 0 0 60px;
     }
+
     .uiuxTestimonials_bg .container {
         position: relative;
         top: 0;
@@ -2696,6 +2729,33 @@ body {
         background: #B6CFCF;
         position: relative;
         top: 205px;
+    }
+
+    .uiux_home {
+        height: 100vh !important;
+    }
+
+    .sd_home {
+        height: 100vh !important;
+        background-color: #fbfbfb;
+    }
+
+    .sd_home .container {
+        top: -140px !important;
+    }
+
+    .keybenefit_img img {
+        width: 557px;
+        height: 360px;
+    }
+
+    .card11 {
+        position: sticky;
+        bottom: 0;
+        height: 100vh;
+        border-radius: 40px;
+        z-index: 7;
+        transition: 0.5s ease;
     }
 }
 
@@ -2833,8 +2893,8 @@ body {
         filter: grayscale();
         margin: 0 30px;
     }
-    
-    
+
+
     .service_title h2 {
         font-family: var(--VarelaRound);
         font-size: 20px;
@@ -2842,51 +2902,51 @@ body {
         line-height: 24.08px;
         color: #505050;
     }
-    
+
     .section-heading_container h3 {
         font-family: var(--Causten);
         font-size: 45px;
         font-weight: 600;
         line-height: 54px;
     }
-    
+
     .section-heading_container p {
         font-family: var(--Causten);
         font-size: 21px;
         font-weight: 400;
         line-height: 25.2px;
     }
-    
+
     .keybenefit_img img {
         width: 600px;
         height: 420px;
     }
-    
+
     .accordsec {
         display: flex;
         justify-content: center;
         align-items: center;
         padding: 110px 80px 0 80px;
     }
-    
+
     .accodcon {
         display: flex;
         justify-content: space-between;
         width: 1320px;
     }
-    
+
     .custom-accord {
         margin: 10px;
         display: flex;
         margin-top: 48px;
     }
-    
+
     .accordimg {
         padding: 20px;
         width: 35%;
         margin: 10px;
     }
-    
+
     .image-container {
         position: relative;
         width: 456.42px;
@@ -2894,13 +2954,13 @@ body {
         top: 38px;
         right: 10px;
     }
-    
+
     .image-container img {
         width: 100%;
         height: 100%;
         object-fit: contain;
     }
-    
+
     .overlay-text h1 {
         position: absolute;
         width: 387px;
@@ -2913,9 +2973,9 @@ body {
         font-weight: 600;
         line-height: 50.4px;
         text-align: left;
-    
+
     }
-    
+
     .overlay-text p {
         position: absolute;
         top: 36px;
@@ -2933,8 +2993,8 @@ body {
         border-radius: 30px;
         background: #DDEAE4;
     }
-    
-    
+
+
     /* Add some basic styles for better visibility */
     .accordion {
         width: 657px;
@@ -2952,15 +3012,15 @@ body {
         position: relative;
         margin-left: 80px;
     }
-    
+
     .accordion:nth-of-type(2) {
         background-color: #E5E2F5;
     }
-    
+
     .accordion:nth-of-type(3) {
         background-color: #DDEAE4;
     }
-    
+
     .accordion p {
         width: 510px;
         font-family: var(--Causten);
@@ -2969,24 +3029,24 @@ body {
         line-height: 33.6px;
         color: #222221;
     }
-    
+
     .accordion p img {
         margin-right: 14px;
     }
-    
+
     .panel {
         max-height: 0;
         overflow: hidden;
         transition: max-height 0.3s ease-out;
     }
-    
+
     .panel p {
         width: auto;
         font-size: 20px;
         font-weight: 400;
         line-height: 27px;
     }
-    
+
     .accordion:after {
         content: '';
         background: url('../img/PolygonIcon.svg') no-repeat center center;
@@ -3003,69 +3063,74 @@ body {
         transition: transform 0.3s ease;
         /* To animate the rotation */
     }
-    
+
     .accordion.active:after {
         transform: translateY(-50%) rotate(180deg);
         /* Rotate the icon */
     }
-    
+
     .accordion.active {
         background-color: #FBD5CB;
         color: #fff;
         border: none;
         transition: background-color 0.4s;
     }
-    
+
     .accordion.active:nth-of-type(2) {
         background-color: #E5E2F5;
     }
-    
+
     .accordion.active:nth-of-type(3) {
         background-color: #DDEAE4;
     }
-    
+
     .accordion.active .panel {
         max-height: 195px;
     }
-    
+
     .accordion.active .panel p {
         font-size: 20px;
         font-weight: 400;
         line-height: 27px;
     }
-    
+
     .uiux_home {
-        height: 1200px !important;
+        height: 100vh !important;
     }
-    
+
+    .sd_home {
+        height: 100vh !important;
+        background-color: #fbfbfb;
+    }
+
     .our_services_container {
         padding: 550px 0 80px 0 !important;
         background: #DDEAE4 !important;
         color: #000 !important;
         height: 1500px !important;
     }
-    
+
     .ourServices_rowContainer .row div {
         width: 312px;
         height: 284px;
         text-align: center;
         margin-bottom: 48px;
     }
-    
+
     .ourServices_rowContainer .row div img {
         margin-bottom: 30px;
     }
-    
+
     .uiuxTestimonials_bg {
         height: 810px !important;
     }
-    
+
     .uiux_clients7 {
         height: 572px !important;
     }
-    
-    
-    uiux_banner_text {
+
+
+    .uiux_banner_text {
         width: 100%;
         height: 100vh !important;
         background: #DDEAE4;
@@ -3075,11 +3140,11 @@ body {
         align-items: center;
         justify-content: space-around;
     }
-    
+
     .div1 {
         margin-top: -160px;
     }
-    
+
     .div1 h3 {
         font-family: var(--Causten);
         font-size: 48px;
@@ -3087,7 +3152,7 @@ body {
         line-height: 57.6px;
         color: #010231;
     }
-    
+
     .div1 p {
         font-family: var(--Causten);
         font-size: 21px;
@@ -3095,23 +3160,23 @@ body {
         line-height: 25.2px;
         color: #010231;
     }
-    
+
     .div2 {
         width: 584px;
         height: 416px;
     }
-    
+
 
     .uiuxTestimonials_bg .container {
         position: relative;
         top: 0;
     }
-    
+
     .uiux_clients7 {
         height: 572px !important;
         z-index: 3 !important;
     }
-    
+
     .uiux_clients7 .ourClients_bg {
         width: 100%;
         height: 575px;
@@ -3207,7 +3272,7 @@ body {
         z-index: 1;
         background: #5791A7;
     }
-    
+
 
     .card9 {
         position: sticky;
@@ -3217,7 +3282,7 @@ body {
         z-index: 8;
         transition: 0.5s ease;
     }
-    
+
     .card10 {
         position: sticky;
         bottom: 0;
@@ -3226,5 +3291,14 @@ body {
         z-index: 5;
     }
 
-    
+    .card11 {
+        position: sticky;
+        bottom: 0;
+        height: 100vh;
+        border-radius: 40px;
+        z-index: 7;
+        transition: 0.5s ease;
+    }
+
+
 }
